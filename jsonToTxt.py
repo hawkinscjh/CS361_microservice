@@ -5,6 +5,7 @@ with open('myJson.json', 'r+') as f:
     x = json.load(f)
 f.close()
 
+# Write JSON info into new 'tasks.txt' file
 with open('tasks.txt', 'w') as f:
     for i in x:
         f.write('\n')
