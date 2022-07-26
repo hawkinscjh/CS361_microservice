@@ -3,6 +3,7 @@ from os.path import exists
 
 def main():
     print("jsonToTxt.py called successfully")
+    # Check if JSON file exists
     if not exists('myJson.json'):
         print("File not found")
         return
@@ -14,7 +15,7 @@ def main():
             return
     f.close()
 
-    # Write JSON info into 'tasks.txt'
+    # Write JSON info to 'tasks.txt'
     with open('tasks.txt', 'w') as f:
         for i in myJson:
             f.write('\n')
