@@ -5,7 +5,7 @@ with open('myJson.json', 'r+') as f:
     x = json.load(f)
 f.close()
 
-# Write JSON info into new 'tasks.txt' file
+# Write JSON info into 'tasks.txt'
 with open('tasks.txt', 'w') as f:
     for i in x:
         f.write('\n')
@@ -17,4 +17,4 @@ with open('tasks.txt', 'w') as f:
             f.write('\n')
 f.close()
 
-print("jsonToTxt.py has finished generating a .txt from given .json")
+print("jsonToTxt.py has finished generating a tasks.txt from myJson.json")
