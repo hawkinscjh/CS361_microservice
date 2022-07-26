@@ -1,0 +1,8 @@
+
+Grocery 
+- apple: Honey Crisp 
+- Chicken: Boneless Skinless thighs 
+
+Appointments 
+- Doctor: Thursday at 9am 
+- Dentist: Monday 10am 
