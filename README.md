@@ -16,12 +16,13 @@ Receive data by reading local 'tasks.txt' file created by jsonToTxt.py. Text fil
 
 Grocery
 
-apple: Honey Crisp
-Chicken: Boneless Skinless thighs
-Appointments
+- apple: Honey Crisp
+- Chicken: Boneless Skinless thighs
 
-Doctor: Thursday at 9am
-Dentist: Monday 10am
+Appointments
+- Doctor: Thursday at 9am
+- Dentist: Monday 10am
+
 UML Diagram:
 
 ![image](https://user-images.githubusercontent.com/59400213/181065943-cc278642-250c-4736-8d41-3389afc85fa8.png)
